@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="nutrition.css"?>
+<literature>
+<book>
+	<name>Rising</name>
+	<author>
+           <firstname>William</firstname>
+           <lastname>Anderson</lastname>
+        </author>
+        <catagory>Drama</catagory>
+</book>
+<book>
+	<name>Pride</name>
+	<author>
+           <firstname>Tom</firstname>
+           <lastname>Sidebuttom</lastname>
+        </author>
+        <catagory>Fiction</catagory>	
+</book>
+<book>
+	<name>Hell</name>
+        <author>
+           <firstname>Dennis</firstname>
+           <lastname>Moore</lastname> 
+        </author>
+        <catagory>Mystrey</catagory>		
+</book>
+<book>
+	<name>Machine</name>
+        <author>
+        <firstname>W.G</firstname>
+        <lastname>Hinds</lastname>  
+        </author>
+        <catagory>Science Fiction</catagory>		
+</book>
+</literature>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<CATALOG>
+  <CD>
+  <ARTIST>Debbie</ARTIST> 
+  <COUNTRY>USA</COUNTRY> 
+  </CD>
+  <CD>
+  <ARTIST>Tom</ARTIST> 
+  <COUNTRY>UK</COUNTRY> 
+  </CD>
+  <CD>
+  <ARTIST>Diane</ARTIST> 
+  <COUNTRY>USA</COUNTRY> 
+  </CD>
+  <CD>
+  <ARTIST>Anne</ARTIST> 
+  <COUNTRY>UK</COUNTRY> 
+  </CD>
+  <CD>
+  <ARTIST>Steve</ARTIST> 
+  <COUNTRY>EU</COUNTRY> 
+  </CD>
+ </CATALOG>
