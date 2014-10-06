@@ -1,9 +1,16 @@
 package javaxml.module2;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import org.xml.sax.Attributes;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
@@ -67,7 +74,14 @@ public class ReadXMLFile {
 				}
 			}
 		    };
-		       saxParser.parse("file.xml", handler);
+		       File file = new File("file.xml");
+	    	   InputStream inputStream= new FileInputStream(file);
+	    	   Reader reader = new InputStreamReader(inputStream,"UTF-8");
+	 
+	    	   InputSource is = new InputSource(reader);
+	    	   is.setEncoding("UTF-8");
+	    	   
+	    	   saxParser.parse(is, handler);
 		    } catch (Exception e) {
 		       e.printStackTrace();
 		    }
