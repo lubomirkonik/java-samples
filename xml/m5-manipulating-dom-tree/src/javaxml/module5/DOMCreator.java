@@ -1,5 +1,6 @@
 package javaxml.module5;
 
+import java.io.FileOutputStream;
 import java.io.StringWriter;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -121,6 +122,12 @@ public class DOMCreator {
             String xmlString = stringWriter.toString();
             
             System.out.println("Zoznam studentov:\n\n" + xmlString);
+            
+            FileOutputStream fos = new FileOutputStream("example.xml");
+            fos.write(xmlString.getBytes());
+            fos.close();
+            
+            System.out.println("\nZapisane do suboru: example.xml");
         } catch (Exception ex) {
             System.out.println(ex);
         }
