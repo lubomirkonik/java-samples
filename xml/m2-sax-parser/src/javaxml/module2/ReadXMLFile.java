@@ -75,7 +75,7 @@ public class ReadXMLFile {
 			}
 		    };
 		       File file = new File("file.xml");
-	    	   InputStream inputStream= new FileInputStream(file);
+	    	   InputStream inputStream = new FileInputStream(file);
 	    	   Reader reader = new InputStreamReader(inputStream,"UTF-8");
 	 
 	    	   InputSource is = new InputSource(reader);
