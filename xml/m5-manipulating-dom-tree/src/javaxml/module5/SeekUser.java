@@ -9,7 +9,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-public class SeekUserByPass {
+public class SeekUser {
 	
 	static String password = null;
     
@@ -20,7 +20,7 @@ public class SeekUserByPass {
         }
         password = args[1];
         try {
-            File f = new File("tomcat-users.xml");
+            File f = new File(args[0]);
             // Obtain factory instance
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             // Obtain builder instance
@@ -35,8 +35,8 @@ public class SeekUserByPass {
         }
     }
         /*
-         *  searchUser is a recursive function that searches the user name
-         *  specfied by the class variable 'name' in the input document.
+         *  searchUser is a recursive function that searches user 
+         *  by the specified password in the input document.
          */
     private static void searchUser(Node node) {
         // null value indicates that we have reached a leaf node
@@ -46,10 +46,10 @@ public class SeekUserByPass {
         // Check if the current element is 'user'
         if (node.getNodeName().equals("user")) {
             //Get the password
-            String password =
+            String currentPassword =
                     node.getAttributes().getNamedItem("password").getNodeValue();
             // check if the password attribute matches the required one
-            if (password.equals(SeekUserByPass.password)) {
+            if (currentPassword.equals(password)) {
                 // retrieve the username and print it on console
                 String username = 
                    node.getAttributes().getNamedItem("username").getNodeValue();
