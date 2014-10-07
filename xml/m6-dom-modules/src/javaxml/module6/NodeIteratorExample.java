@@ -16,10 +16,6 @@ public class NodeIteratorExample {
     
     public static void main(String[] args) {
         
-        if (args.length <= 0) {
-            System.out.println("Usage: java NodeIteratorExample XMLDocument-catalog.xml");
-            return;
-        }
         try {
             //Obtain a factory instance
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -34,7 +30,7 @@ public class NodeIteratorExample {
                 return;
             }
             // Parse the content of the string and return a document object
-            Document doc = parser.parse(args[0]);
+            Document doc = parser.parse("catalog.xml");
             // Obtain an instance of DocumentTraversal
             DocumentTraversal traversal = (DocumentTraversal) doc;
             //Obtain an instance of NodeIterator
