@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="OrderProcessing.xslt"?>
+
+<customers>
+	<customer>
+	  <name>John</name>
+	  <item>Color TV</item>
+	  <quantity>5</quantity>
+	  <price>$750</price>
+	</customer>
+
+	<customer>
+	  <name>Donna</name>
+	  <item>DVD Player</item>
+	  <quantity>15</quantity>
+	  <price>$400</price>
+	</customer>
+
+	<customer>
+	  <name>Anne</name>
+	  <item>Washing Machine</item>
+	  <quantity>8</quantity>
+	  <price>$1000</price>
+	</customer>
+
+	<customer>
+	  <name>Allen</name>
+	  <item>Dryer</item>
+	  <quantity>25</quantity>
+	  <price>1500</price>
+	</customer>
+
+	<customer>
+	  <name>Abdul Khan</name>
+	  <item>Mixer</item>
+	  <quantity>15</quantity>
+	  <price>2000</price>
+	</customer>
+		
+	<customer>
+	  <name>Abdul Khan</name>
+	  <item>DVD Player</item>
+	  <quantity>20</quantity>
+	  <price>4000</price>
+	</customer>
+
+	<customer>
+	  <name>Arpita Kone</name>
+	  <item>Laptop</item>
+	  <quantity>5</quantity>
+	  <price>25000</price>
+	</customer>
+
+	<customer>
+	  <name>Jagdeep Bhatia</name>
+	  <item>Laptop</item>
+	  <quantity>2</quantity>
+	  <price>25000</price>
+	</customer>
+
+	<customer>
+	  <name>Boman Patrawala</name>
+	  <item>Laptop</item>
+	  <quantity>6</quantity>
+	  <price>25000</price>
+	</customer>
+
+	<customer>
+	  <name>Sharad Parab</name>
+	  <item>Mixer</item>
+	  <quantity>10</quantity>
+	  <price>2000</price>
+	</customer>
+
+	<customer>
+	  <name>Kavita Yadav</name>
+	  <item>Mixer</item>
+	  <quantity>25</quantity>
+	  <price>2000</price>
+	</customer>
+
+	<customer>
+	  <name>Suresh Diwan</name>
+	  <item>Dryer</item>
+	  <quantity>12</quantity>
+	  <price>1500</price>
+	</customer>
+
+	<customer>
+	  <name>Suresh Diwan</name>
+	  <item>DVD Player</item>
+	  <quantity>12</quantity>
+	  <price>2500</price>
+	</customer>
+
+	<customer>
+	  <name>Rakhi Rawal</name>
+	  <item>Washing Machine</item>
+	  <quantity>12</quantity>
+	  <price>10000</price>
+	</customer>
+
+</customers>
