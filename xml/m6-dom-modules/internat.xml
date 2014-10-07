@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<internat>
+    <izba cislo="1">
+        <student>Daniel Bene</student>
+        <pristelok>
+            <student>Milos Vrabel</student>
+        </pristelok>
+    </izba>   
+    <izba cislo="2">
+        <student>Anton Bariciak</student>
+        <student>Jozef Mery</student>
+        <pristelok>
+        	<student>Vladimil Halak</student>
+        </pristelok>
+    </izba>
+    <izba cislo="3">
+        <student>Frantisek Tomcik</student>
+        <student>Branislav Kalivoda</student>
+    </izba>
+    <izba cislo="4">
+        <pristelok>
+        </pristelok>
+    </izba>
+</internat>
