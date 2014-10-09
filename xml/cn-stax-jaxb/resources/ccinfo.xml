@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PayInfo>
+    <Name>David McArthur</Name>
+    <CreditCard Limit="10,000" Currency="USD">
+    	<Number>9921 5681 2521 8845</Number>
+    	<Issuer>CreditBank</Issuer>
+    	<Expiration>06/10</Expiration>
+    </CreditCard>
+</PayInfo>
