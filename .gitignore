@@ -1,3 +1,5 @@
 core/src/demo/Application.java
 core/bin
 /xml/source-apt
+/ejb
+/ejb/source-apt
