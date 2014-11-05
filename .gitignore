@@ -3,3 +3,5 @@ core/bin
 /xml/source-apt
 /ejb
 /ejb/source-apt
+/jax-ws
+/jax-ws/source-apt
