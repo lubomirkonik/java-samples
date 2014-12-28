@@ -1,4 +1,6 @@
-core/src/demo/Application.java
+core/src/demo/TestClass.java
+core/src/demo/TestSecClass.java
+core/src/demo/model/TestModel.java
 core/bin
 /xml/source-apt
 /ejb
